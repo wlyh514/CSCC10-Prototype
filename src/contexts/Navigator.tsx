@@ -1,4 +1,5 @@
 import React, { ReactComponentElement, ReactNode } from "react";
+import AdjustTheme from "../screens/AdjustTheme";
 
 import Landing from "../screens/Landing";
 
@@ -12,6 +13,10 @@ const screens = {
   "Landing": {
     body: <Landing />,
     scrollable: false,
+  }, 
+  "AdjustTheme": {
+    body: <AdjustTheme />,
+    scrollable: true,
   }
 }
 
